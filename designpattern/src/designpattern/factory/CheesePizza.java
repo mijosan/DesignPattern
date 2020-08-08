@@ -1,4 +1,4 @@
-ackage designpattern.factory;
+package designpattern.factory;
 
 public class CheesePizza extends Pizza{
 	@Override
