@@ -2,11 +2,11 @@ package designpattern.command;
 
 public class RemoteLoader {
 	public static void main(String[] args) {
-		RemoteControl remoteControl = new RemoteControl();
+		RemoteControl remoteControl = new RemoteControl(); //client
 		
-		CeilingFan ceilingFan = new CeilingFan("Living Room");
+		CeilingFan ceilingFan = new CeilingFan("Living Room"); //receiver
 		
-		CeilingFanMediumCommand ceilingFanMedium = new CeilingFanMediumCommand(ceilingFan);
+		CeilingFanMediumCommand ceilingFanMedium = new CeilingFanMediumCommand(ceilingFan); //command
 		CeilingFanHighCommand ceilingFanHigh = new CeilingFanHighCommand(ceilingFan);
 		CeilingFanOffCommand ceilingFanOff = new CeilingFanOffCommand(ceilingFan);
 		
