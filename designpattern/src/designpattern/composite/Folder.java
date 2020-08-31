@@ -22,4 +22,5 @@ public class Folder extends Component{
 	public List<Component> getChildren() {
 		return children;
 	}
+	
 }

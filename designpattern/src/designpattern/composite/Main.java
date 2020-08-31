@@ -35,6 +35,10 @@ public class Main {
 		show(root);
 	}
 	
+	/*
+	 * 클래스 이름 | 객체 이름
+	 * 재귀적으로 호출해서 출력한다.
+	 */
 	private static void show(Component component) {
 		System.out.println(component.getClass().getName() + "|" + component.getName());
 		if(component instanceof Folder) {
