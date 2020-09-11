@@ -1,5 +1,7 @@
 package designpattern.builder;
 
+import designpattern.builder2.Computer;
+
 public class Main {
 
 	public static void main(String[] args) {

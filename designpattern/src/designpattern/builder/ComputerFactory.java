@@ -1,5 +1,7 @@
 package designpattern.builder;
 
+import designpattern.builder2.Computer;
+
 public class ComputerFactory {
 	
 	private BluePrint print;
