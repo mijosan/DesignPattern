@@ -1,6 +1,6 @@
 package designpattern.facade;
 
-public class HomeTheaterFacade {
+public class HomeTheaterFacade {//
 	Amplifier amp;
     Tuner tuner;
     DvdPlayer dvd;
